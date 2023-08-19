@@ -1,10 +1,10 @@
 {
   "name": "smart-contract-lottery",
   "version": "1.0.0",
-  "description": "",
+  "description": "This project is  creating a decentralized random lottery",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx hardhat test"
   },
   "author": "Dara",
   "license": "ISC",
@@ -26,5 +26,16 @@
     "solhint": "^3.5.1",
     "solidity-coverage": "^0.7.22",
     "yarn": "^1.22.19"
-  }
+  },
+  "mocha": {
+    "timeout": 10000000
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dara-Design/Blockchain-Solidity-Decentralized-Lottery-lesson-9.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Dara-Design/Blockchain-Solidity-Decentralized-Lottery-lesson-9/issues"
+  },
+  "homepage": "https://github.com/Dara-Design/Blockchain-Solidity-Decentralized-Lottery-lesson-9#readme"
 }
